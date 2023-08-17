@@ -1,7 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="MySuite" parallel="methods" thread-count="1">
-    <test name="ApiTests" preserve-order="true">
+    <test name="demoqa_base_page_tests" preserve-order="true">
         <classes>
+            <class name="demoqa.positive_tests.BaseTest"/>
             <class name="demoqa.positive_tests.HomePageTest"/>
         </classes>
     </test>
