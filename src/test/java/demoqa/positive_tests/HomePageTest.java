@@ -39,6 +39,7 @@ public class HomePageTest extends BaseTest {
 
 		homePage.openCard(name);
 		logger.info("test param: " + name);
+		System.out.println(name);
 		Assert.assertEquals(name, $(By.className("main-header")).getText());
 		back();
 	}
