@@ -1,0 +1,101 @@
+12:17:28.316 [Test worker] WARN  org.testng.internal.Configuration - Detected a static method [demoqa.positive_tests.BaseTest.setUp()]. Static configuration methods can cause  unexpected behavior.
+12:17:28.537 [Test worker] WARN  org.testng.internal.Configuration - Detected a static method [demoqa.positive_tests.BaseTest.setUp()]. Static configuration methods can cause  unexpected behavior.
+12:17:28.695 [Test worker] INFO  demoqa.positive_tests.BaseTest - Set Up: browser size- 1920x1080
+12:17:28.700 [Test worker] INFO  demoqa.positive_tests.BaseTest - Set Up: timeout- 4000
+12:17:28.701 [Test worker] INFO  demoqa.positive_tests.BaseTest - Set Up: browser- firefox
+12:17:28.740 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+12:17:29.099 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: C:\ProgramData\Jenkins\.jenkins\workspace\QAFramework\build\downloads\1692350249083_11164_16
+12:17:29.474 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 116)
+12:17:29.502 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Windows\system32\config\systemprofile\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+12:17:29.621 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+12:17:32.393 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+12:17:32.411 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+12:17:32.695 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=116.0.3 Platform=windows
+12:17:32.695 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+12:17:32.695 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+12:17:32.695 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (2de8fac4-d9db-413d-8b2e-bd115994f89e)
+12:17:32.699 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (2de8fac4-d9db-413d-8b2e-bd115994f89e),proxy=null,downloadsFolder=C:\ProgramData\Jenkins\.jenkins\workspace\QAFramework\build\downloads\1692350249083_11164_16] in 16 [size=1]
+12:17:32.699 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+12:17:34.229 [TestNG-test=demoqa_base_page_tests-1] INFO  demoqa.positive_tests.BaseTest - https://demoqa.com/is opened
+12:17:34.745 [TestNG-test=demoqa_base_page_tests-1] INFO  demoqa.positive_tests.BaseTest - test param: Elements
+12:17:35.087 [TestNG-test=demoqa_base_page_tests-1] INFO  demoqa.positive_tests.BaseTest - test param: Forms
+12:17:35.416 [TestNG-test=demoqa_base_page_tests-1] INFO  demoqa.positive_tests.BaseTest - test param: Alerts, Frame & Windows
+12:17:35.748 [TestNG-test=demoqa_base_page_tests-1] INFO  demoqa.positive_tests.BaseTest - test param: Widgets
+12:17:36.088 [TestNG-test=demoqa_base_page_tests-1] INFO  demoqa.positive_tests.BaseTest - test param: Interactions
+12:17:36.120 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=1
+12:17:36.122 [Thread-5] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: C:\ProgramData\Jenkins\.jenkins\workspace\QAFramework\build\downloads\1692350249083_11164_16
+12:17:36.123 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 27 -> FirefoxDriver: firefox on windows (2de8fac4-d9db-413d-8b2e-bd115994f89e)...
+12:17:36.126 [Thread-5] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+12:17:36.141 [Dead threads watchdog] INFO  c.c.s.impl.DeadThreadsWatchdog - Thread 16 is dead. Let's close its webdriver FirefoxDriver: firefox on windows (2de8fac4-d9db-413d-8b2e-bd115994f89e).
+12:17:36.142 [Dead threads watchdog] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 28 -> FirefoxDriver: firefox on windows (2de8fac4-d9db-413d-8b2e-bd115994f89e)...
+12:17:36.145 [Dead threads watchdog] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+12:17:37.184 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 27 in 1061 ms
+12:17:37.185 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+16:21:10.932 [Test worker] WARN  org.testng.internal.Configuration - Detected a static method [demoqa.positive_tests.BaseTest.setUp()]. Static configuration methods can cause  unexpected behavior.
+16:21:11.033 [Test worker] WARN  org.testng.internal.Configuration - Detected a static method [demoqa.positive_tests.BaseTest.setUp()]. Static configuration methods can cause  unexpected behavior.
+16:21:11.116 [Test worker] INFO  demoqa.positive_tests.BaseTest - Set Up: browser size- 1920x1080
+16:21:11.118 [Test worker] INFO  demoqa.positive_tests.BaseTest - Set Up: timeout- 4000
+16:21:11.119 [Test worker] INFO  demoqa.positive_tests.BaseTest - Set Up: browser- firefox
+16:21:11.164 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+16:21:11.196 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\QAFramework_0.0.1\build\downloads\1692364871184_11340_16
+16:21:12.084 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 116)
+16:21:12.110 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Antibiotik\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+16:21:12.216 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+16:21:16.035 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+16:21:16.187 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+16:21:16.221 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=116.0.3 Platform=windows
+16:21:16.221 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+16:21:16.221 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+16:21:16.221 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (18003236-d96b-46fd-9367-fbb5c7d5da2a)
+16:21:16.224 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (18003236-d96b-46fd-9367-fbb5c7d5da2a),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\QAFramework_0.0.1\build\downloads\1692364871184_11340_16] in 16 [size=1]
+16:21:16.225 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+16:21:18.624 [TestNG-test=demoqa_base_page_tests-1] INFO  demoqa.positive_tests.BaseTest - https://demoqa.com/is opened
+16:21:19.891 [TestNG-test=demoqa_base_page_tests-1] INFO  demoqa.positive_tests.BaseTest - test param: Elements
+16:21:20.359 [TestNG-test=demoqa_base_page_tests-1] INFO  demoqa.positive_tests.BaseTest - test param: Forms
+16:21:20.701 [TestNG-test=demoqa_base_page_tests-1] INFO  demoqa.positive_tests.BaseTest - test param: Alerts, Frame & Windows
+16:21:21.062 [TestNG-test=demoqa_base_page_tests-1] INFO  demoqa.positive_tests.BaseTest - test param: Widgets
+16:21:21.412 [TestNG-test=demoqa_base_page_tests-1] INFO  demoqa.positive_tests.BaseTest - test param: Interactions
+16:21:21.519 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=1
+16:21:21.520 [Dead threads watchdog] INFO  c.c.s.impl.DeadThreadsWatchdog - Thread 16 is dead. Let's close its webdriver FirefoxDriver: firefox on windows (18003236-d96b-46fd-9367-fbb5c7d5da2a).
+16:21:21.522 [Dead threads watchdog] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 28 -> FirefoxDriver: firefox on windows (18003236-d96b-46fd-9367-fbb5c7d5da2a)...
+16:21:21.522 [Thread-5] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\QAFramework_0.0.1\build\downloads\1692364871184_11340_16
+16:21:21.523 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 27 -> FirefoxDriver: firefox on windows (18003236-d96b-46fd-9367-fbb5c7d5da2a)...
+16:21:21.524 [Dead threads watchdog] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+16:21:21.524 [Thread-5] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+16:21:22.927 [Dead threads watchdog] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 28 in 1405 ms
+16:21:22.928 [Dead threads watchdog] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\QAFramework_0.0.1\build\downloads\1692364871184_11340_16] in 28 [size=0]
+16:21:22.933 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 27 in 1410 ms
+16:21:22.933 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+11:40:18.873 [Test worker] WARN  org.testng.internal.Configuration - Detected a static method [demoqa.positive_tests.BaseTest.setUp()]. Static configuration methods can cause  unexpected behavior.
+11:40:19.094 [Test worker] WARN  org.testng.internal.Configuration - Detected a static method [demoqa.positive_tests.BaseTest.setUp()]. Static configuration methods can cause  unexpected behavior.
+11:40:19.204 [Test worker] INFO  demoqa.positive_tests.BaseTest - Set Up: browser size- 1920x1080
+11:40:19.208 [Test worker] INFO  demoqa.positive_tests.BaseTest - Set Up: timeout- 4000
+11:40:19.209 [Test worker] INFO  demoqa.positive_tests.BaseTest - Set Up: browser- firefox
+11:40:19.300 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+11:40:19.357 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\QAFramework_0.0.1\build\downloads\1692693619333_11884_16
+11:40:20.708 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 116)
+11:40:20.775 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Antibiotik\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+11:40:21.109 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+11:40:26.060 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+11:40:26.149 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+11:40:26.229 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=116.0.3 Platform=windows
+11:40:26.230 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+11:40:26.230 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+11:40:26.230 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (90b99d84-4c42-4a0a-a6b8-5007c77e00d0)
+11:40:26.234 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (90b99d84-4c42-4a0a-a6b8-5007c77e00d0),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\QAFramework_0.0.1\build\downloads\1692693619333_11884_16] in 16 [size=1]
+11:40:26.235 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+11:40:28.458 [TestNG-test=demoqa_base_page_tests-1] INFO  demoqa.positive_tests.BaseTest - https://demoqa.com/is opened
+11:40:29.475 [TestNG-test=demoqa_base_page_tests-1] INFO  demoqa.positive_tests.BaseTest - test param: Elements
+11:40:30.181 [TestNG-test=demoqa_base_page_tests-1] INFO  demoqa.positive_tests.BaseTest - test param: Forms
+11:40:30.580 [TestNG-test=demoqa_base_page_tests-1] INFO  demoqa.positive_tests.BaseTest - test param: Alerts, Frame & Windows
+11:40:30.932 [TestNG-test=demoqa_base_page_tests-1] INFO  demoqa.positive_tests.BaseTest - test param: Widgets
+11:40:31.288 [TestNG-test=demoqa_base_page_tests-1] INFO  demoqa.positive_tests.BaseTest - test param: Interactions
+11:40:31.336 [Dead threads watchdog] INFO  c.c.s.impl.DeadThreadsWatchdog - Thread 16 is dead. Let's close its webdriver FirefoxDriver: firefox on windows (90b99d84-4c42-4a0a-a6b8-5007c77e00d0).
+11:40:31.339 [Dead threads watchdog] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\QAFramework_0.0.1\build\downloads\1692693619333_11884_16
+11:40:31.339 [Dead threads watchdog] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 28 -> FirefoxDriver: firefox on windows (90b99d84-4c42-4a0a-a6b8-5007c77e00d0)...
+11:40:31.343 [Dead threads watchdog] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+11:40:31.348 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=1
+11:40:31.350 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 27 -> FirefoxDriver: firefox on windows (90b99d84-4c42-4a0a-a6b8-5007c77e00d0)...
+11:40:31.352 [Thread-5] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+11:40:32.666 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 27 in 1316 ms
+11:40:32.666 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup

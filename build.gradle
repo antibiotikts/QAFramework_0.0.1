@@ -1,6 +1,13 @@
 
 plugins {
     id 'java'
+    id 'io.qameta.allure' version '2.10.0'
+
+}
+
+allure {
+    autoconfigure = true
+    allureServe.port = '8090'
 }
 
 group 'org.example'
@@ -15,6 +22,7 @@ dependencies {
     implementation group: 'com.codeborne', name: 'selenide', version: '6.16.1'
     implementation 'org.slf4j:slf4j-api: 2.0.3'
     implementation 'ch.qos.logback:logback-classic:1.4.5'
+    testImplementation 'io.qameta.allure:allure-testng:2.23.0'
 }
 
 
