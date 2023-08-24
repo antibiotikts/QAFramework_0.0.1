@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import projects.demoqa.pages.HomePage;
+import io.qameta.allure.Allure;
 
 import static com.codeborne.selenide.Selenide.*;
 
@@ -23,6 +24,7 @@ public class HomePageTest extends BaseTest {
 	public void openSite() {
 		open(URL);
 		logger.info(URL + "is opened");
+		Allure.addAttachment("INFO:", URL + " is opened");
 	}
 
 	@DataProvider(name = "data")
@@ -39,8 +41,10 @@ public class HomePageTest extends BaseTest {
 
 		homePage.openCard(name);
 		logger.info("test param: " + name);
-		System.out.println(name);
-		Assert.assertEquals(name, $(By.className("main-header")).getText());
+		String value = $(By.className("main-header")).getText();
+		Assert.assertEquals(name, value);
+		Allure.addAttachment("INFO:", "test param: " + name);
+		Allure.addAttachment("INFO:", "expected value: " + name + ", actual value: " + value);
 		back();
 	}
 }

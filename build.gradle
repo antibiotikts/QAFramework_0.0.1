@@ -6,7 +6,7 @@ plugins {
 }
 
 allure {
-    autoconfigure = true
+    //autoconfigure = true
     allureServe.port = '8090'
 }
 
@@ -25,9 +25,14 @@ dependencies {
     testImplementation 'io.qameta.allure:allure-testng:2.23.0'
 }
 
-
 test {
-   useTestNG() {
-       suites "src/test/resources/testng.xml"
-   }
+    useTestNG() {
+        suites "src/test/resources/testng.xml"
+    }
+}
+
+tasks.register("test1", Test) {
+    useTestNG() {
+        suites "src/test/resources/testng.xml"
+    }
 }
