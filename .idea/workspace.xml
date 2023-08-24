@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bcb798d-e707-49d6-91fc-27059a53d3ec" name="Changes" comment="Added allure">
-      <change afterPath="$PROJECT_DIR$/src/main/java/projects/rozetka/pages/BasketPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/projects/rozetka/pages/CatalogPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/projects/rozetka/pages/ComparisonPopup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/projects/rozetka/pages/HeaderMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/projects/rozetka/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/projects/rozetka/pages/ProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/projects/rozetka/pages/ProductsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/projects/rozetka/widgets/header/Header.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/projects/rozetka/widgets/sidebar/SortingSidebar.java" afterDir="false" />
+    <list default="true" id="0bcb798d-e707-49d6-91fc-27059a53d3ec" name="Changes" comment="Copied classes from the old 'Rozetka' project.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/demoqa/tests_params/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demoqa/tests_params/q.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demoqa/tests_params/testConfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/myapp.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/myapp.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demoqa/positive_tests/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demoqa/positive_tests/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demoqa/positive_tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demoqa/positive_tests/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +65,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "F:/###JAVA_PROJECT###/Testing/QAFramework_0.0.1/src/main/java/projects/rozetka",
+    "last_opened_file_path": "F:/###JAVA_PROJECT###/Testing/apiSwaggerTestNG",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
@@ -246,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692693757713</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Copied classes from the old 'Rozetka' project.">
+      <created>1692872248753</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1692872248753</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -255,7 +255,8 @@
     <MESSAGE value="Set up build.gradle for starting tests with used testng.xml" />
     <MESSAGE value="Added logback.xml" />
     <MESSAGE value="Added allure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added allure" />
+    <MESSAGE value="Copied classes from the old 'Rozetka' project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Copied classes from the old 'Rozetka' project." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
