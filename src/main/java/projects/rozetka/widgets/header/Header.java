@@ -28,8 +28,8 @@ public class Header {
     }
 
     public ProductsPage headerSearchInput(String input) {
-        header.find(headerSearchInput).setValue(input);
-        header.find(headerButtonSearchInput).click();
+        header.find(headerSearchInput).setValue(input).pressEnter();
+       //header.find(headerButtonSearchInput).click();
         return new ProductsPage();
     }
 

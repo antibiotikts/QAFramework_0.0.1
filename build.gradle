@@ -37,3 +37,15 @@ tasks.register("test1", Test) {
         suites "src/test/resources/testng.xml"
     }
 }
+
+tasks.register("test2", Test) {
+    useTestNG() {
+        suites "src/test/java/rozetka/tests_config/resources/testng.xml"
+    }
+}
+
+tasks.register("test3", Test) {
+    useTestNG() {
+        suites "src/test/java/test_builder/resources/testng.xml"
+    }
+}

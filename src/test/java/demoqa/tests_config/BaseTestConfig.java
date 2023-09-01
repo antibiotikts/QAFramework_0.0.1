@@ -1,7 +1,7 @@
-package demoqa.tests_params;
+package demoqa.tests_config;
 import com.google.gson.annotations.SerializedName;
 
-public class TestConfig {
+public class BaseTestConfig {
 	@SerializedName("browserSize")
 	private String browserSize;
 

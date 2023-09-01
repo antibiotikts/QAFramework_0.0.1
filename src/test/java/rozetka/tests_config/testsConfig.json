@@ -1,0 +1,9 @@
+{
+  "browserSize": "1920x1080",
+  "timeout": 4000,
+  "browser": "firefox",
+
+  "search_input": "ipad",
+
+  "search_input_list": ["ipad", "iphone", "macbook"]
+}
