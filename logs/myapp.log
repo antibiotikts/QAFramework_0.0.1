@@ -1114,3 +1114,28 @@ Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: tru
 12:07:14.728 [Thread-5] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
 12:07:16.853 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 27 in 2139 ms
 12:07:16.853 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+15:15:27.119 [Test worker] WARN  org.testng.internal.Configuration - Detected a static method [test_builder.BaseTest.setUp()]. Static configuration methods can cause  unexpected behavior.
+15:15:27.542 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+15:15:27.592 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\QAFramework_0.0.1\build\downloads\1693656927572_7628_16
+15:15:29.017 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 117)
+15:15:29.059 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Antibiotik\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+15:15:29.402 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:15:35.847 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:15:36.036 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+15:15:36.125 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+15:15:36.126 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+15:15:36.126 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+15:15:36.126 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (8c48606a-0a4c-41fb-8315-344c721b3251)
+15:15:36.133 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (8c48606a-0a4c-41fb-8315-344c721b3251),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\QAFramework_0.0.1\build\downloads\1693656927572_7628_16] in 16 [size=1]
+15:15:36.134 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+15:15:39.650 [TestNG-test=demoqa_base_page_tests-1] INFO  p.test_builder.commands.JsonReader - build JSON array successfully
+15:15:40.360 [Dead threads watchdog] INFO  c.c.s.impl.DeadThreadsWatchdog - Thread 16 is dead. Let's close its webdriver FirefoxDriver: firefox on windows (8c48606a-0a4c-41fb-8315-344c721b3251).
+15:15:40.362 [Dead threads watchdog] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\QAFramework_0.0.1\build\downloads\1693656927572_7628_16
+15:15:40.363 [Dead threads watchdog] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 28 -> FirefoxDriver: firefox on windows (8c48606a-0a4c-41fb-8315-344c721b3251)...
+15:15:40.367 [Dead threads watchdog] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:15:40.383 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=1
+15:15:40.394 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 27 -> FirefoxDriver: firefox on windows (8c48606a-0a4c-41fb-8315-344c721b3251)...
+15:15:40.401 [Thread-5] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:15:41.986 [Thread-5] ERROR c.c.s.d.CloseDriverCommand - Cannot close browser: WebDriverException: Timed out waiting for driver server to stop.
+15:15:41.987 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 27 in 1593 ms
+15:15:41.987 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup

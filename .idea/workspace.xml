@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bcb798d-e707-49d6-91fc-27059a53d3ec" name="Changes" comment="created test builder(in test form )">
-      <change afterPath="$PROJECT_DIR$/src/main/java/projects/test_builder/RegistrarOfCommands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/projects/test_builder/commands/JsonReader.java" afterDir="false" />
+    <list default="true" id="0bcb798d-e707-49d6-91fc-27059a53d3ec" name="Changes" comment="redesigned class TestBuilder&#10;created class RegistrarOfCommands">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/myapp.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/myapp.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/projects/test_builder/ClickCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/projects/test_builder/commands/ClickCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/projects/test_builder/CommandExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/projects/test_builder/CommandExecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/projects/test_builder/TestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/projects/test_builder/TestBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/projects/test_builder/TestCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/projects/test_builder/commands/TestCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/projects/test_builder/TypeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/projects/test_builder/commands/TypeCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test_builder/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_builder/TestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test_builder/testsConfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_builder/tests_config/testsConfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +78,7 @@
       <recent name="F:\###JAVA_PROJECT###\Testing\QAFramework_0.0.1\src\test\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\###JAVA_PROJECT###\Testing\QAFramework_0.0.1\src\test\java\test_builder\tests_config" />
       <recent name="F:\###JAVA_PROJECT###\Testing\QAFramework_0.0.1\src\test\java\rozetka\tests_config" />
     </key>
   </component>
@@ -269,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693574294143</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="redesigned class TestBuilder&#10;created class RegistrarOfCommands">
+      <created>1693648653889</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1693648653889</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -281,7 +284,8 @@
     <MESSAGE value="Copied classes from the old 'Rozetka' project." />
     <MESSAGE value="reading parameters set upped from JSON file" />
     <MESSAGE value="created test builder(in test form )" />
-    <option name="LAST_COMMIT_MESSAGE" value="created test builder(in test form )" />
+    <MESSAGE value="redesigned class TestBuilder&#10;created class RegistrarOfCommands" />
+    <option name="LAST_COMMIT_MESSAGE" value="redesigned class TestBuilder&#10;created class RegistrarOfCommands" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
