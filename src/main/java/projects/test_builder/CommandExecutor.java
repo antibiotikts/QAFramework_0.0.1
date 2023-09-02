@@ -3,12 +3,13 @@ package projects.test_builder;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
+import projects.test_builder.commands.TestCommand;
 
 public class CommandExecutor {
 
 	public static void executeCommand(String action, String selector, String value) throws IllegalAccessException, InstantiationException {
 
-		Class<? extends TestCommand> commandClass = TestBuilder.getCommandMap().get(action.toLowerCase());
+		Class<? extends TestCommand> commandClass = RegistrarOfCommands.getCommandMap().get(action.toLowerCase());
 
 		if (commandClass != null) {
 			try {

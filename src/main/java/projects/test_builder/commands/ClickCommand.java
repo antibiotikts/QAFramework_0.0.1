@@ -1,8 +1,8 @@
-package projects.test_builder;
+package projects.test_builder.commands;
 
 import com.codeborne.selenide.SelenideElement;
 
-public class ClickCommand implements TestCommand  {
+public class ClickCommand implements TestCommand {
 	private final  SelenideElement element;
 
 	public ClickCommand(SelenideElement element) {

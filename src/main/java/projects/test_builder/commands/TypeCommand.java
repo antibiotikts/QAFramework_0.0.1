@@ -1,4 +1,4 @@
-package projects.test_builder;
+package projects.test_builder.commands;
 
 import com.codeborne.selenide.SelenideElement;
 
