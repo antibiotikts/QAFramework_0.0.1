@@ -21,7 +21,7 @@ public class BaseTest {
 	private static final Logger logger = LoggerFactory.getLogger(demoqa.positive_tests.BaseTest.class);
 
 	public BaseTest() {
-		String configFileName = "testsConfig.json";
+		String configFileName = "search_test.json";
 		String currentDirectory = System.getProperty("user.dir");
 		Path configFilePath = Paths.get(currentDirectory, "src", "test", "java", "rozetka", "tests_config", configFileName);
 

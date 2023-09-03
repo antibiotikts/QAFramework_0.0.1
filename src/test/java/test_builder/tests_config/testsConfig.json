@@ -1,7 +1,0 @@
-[
-  {
-    "action": "type",
-    "selector": ".//input[@name='search']",
-    "value": "iphone"
-  }
-]

@@ -1,18 +1,29 @@
 package projects.test_builder.commands;
 
-import com.codeborne.selenide.SelenideElement;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.openqa.selenium.By;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-public class TypeCommand implements TestCommand {
-	private final SelenideElement element;
-	private final String value;
+import static com.codeborne.selenide.Selenide.$;
 
-	public TypeCommand(SelenideElement element, String value) {
-		this.element = element;
-		this.value = value;
+public class TypeCommand extends BaseCommand {
+	private static final Logger logger = LoggerFactory.getLogger(TypeCommand.class);
+
+	public TypeCommand(JSONObject jsonObject) {
+		super(jsonObject);
 	}
 
 	@Override
 	public void execute() {
-		element.setValue(value).pressEnter();
+		try {
+			logger.info("Selector: " + jsonObject.getString("selector") + "; Value:" + jsonObject.getString("value"));
+
+			$(By.xpath(jsonObject.getString("selector"))).setValue(jsonObject.getString("value")).pressEnter();
+
+		} catch (JSONException e) {
+			logger.error("Element or value not found", e);
+		}
 	}
 }

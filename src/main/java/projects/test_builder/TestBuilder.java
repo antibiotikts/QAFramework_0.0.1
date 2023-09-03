@@ -1,19 +1,16 @@
 package projects.test_builder;
 
-import com.codeborne.selenide.Selenide;
-import com.codeborne.selenide.SelenideElement;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.openqa.selenium.By;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import projects.test_builder.commands.JsonReader;
 import projects.test_builder.commands.TestCommand;
+
 import java.lang.reflect.InvocationTargetException;
+import java.nio.file.Path;
 import java.util.LinkedList;
 import java.util.Queue;
-import java.nio.file.Path;
 
 
 public class TestBuilder {
@@ -28,20 +25,15 @@ public class TestBuilder {
 	public void buildTests() {
 		try {
 			JSONArray testSteps = JsonReader.getJsonArray(path);
-
 			if (testSteps != null) {
-
 				for (int i = 0; i < testSteps.length(); i++) {
 					JSONObject step = testSteps.getJSONObject(i);
 					String action = step.getString("action");
-					String selector = step.getString("selector");
-					String value = step.optString("value", "");
 
 					Class<? extends TestCommand> commandClass = RegistrarOfCommands.getCommandMap().get(action.toLowerCase());
 					if (commandClass != null) {
-						SelenideElement element = Selenide.$(By.xpath(selector));
-						TestCommand command = commandClass.getConstructor(SelenideElement.class, String.class).newInstance(element, value);
-						commandQueue.add(command);
+						logger.info(step.toString());
+						commandQueue.add(commandClass.getConstructor(JSONObject.class).newInstance(step));
 					} else {
 						logger.error("Unknown action: " + action);
 					}

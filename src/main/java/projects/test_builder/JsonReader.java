@@ -1,4 +1,4 @@
-package projects.test_builder.commands;
+package projects.test_builder;
 
 import org.json.JSONArray;
 import org.json.JSONException;

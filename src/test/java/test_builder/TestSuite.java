@@ -1,20 +1,14 @@
 package test_builder;
 
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import projects.test_builder.TestBuilder;
+
 import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import static com.codeborne.selenide.Selenide.open;
 
 public class TestSuite {
-
-	@BeforeMethod
-	public void openURL() {
-		open("https://rozetka.com.ua/");
-	}
 
 	@DataProvider(name = "jsonFiles")
 	public Object[][] getJsonFiles() {
@@ -35,10 +29,8 @@ public class TestSuite {
 		return new Object[0][0];
 	}
 
-
 	@Test(dataProvider = "jsonFiles")
 	public void runJsonBasedTest(Path jsonFiles) {
-
 		TestBuilder tests = new TestBuilder(jsonFiles);
 		tests.buildTests();
 		tests.executeCommands();
