@@ -13,6 +13,8 @@ public class RegistrarOfCommands {
 			commandMap.put("type", TypeCommand.class);
 			commandMap.put("open", OpenUrl.class);
 			commandMap.put("close", CloseCommand.class);
+			commandMap.put("press enter", PressEnterCommand.class);
+			commandMap.put("set value", SetValueCommand.class);
 		}
 
 	public static Map<String, Class<? extends TestCommand>> getCommandMap() {
